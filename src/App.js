@@ -1,18 +1,14 @@
 import './App.css';
+import SignIn from './components/SignIn/SignIn';
 import Header from './components/header/header';
-
 function App() {
   return (
-    <>
-      <Header />
+    <div className="App">
+     <Header />
+      <SignIn />
+    </div>
+    );
 
-      <div className="App">
-      Minor Project
-      </div>
-    
-    </>
-    
-  );
 }
 
 export default App;
